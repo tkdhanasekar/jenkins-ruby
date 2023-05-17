@@ -9,6 +9,7 @@ pipeline {
     stage('hello') {
       steps {
         sh 'ruby Hello.rb'
+        sh 'date'
       }
     }
   }
